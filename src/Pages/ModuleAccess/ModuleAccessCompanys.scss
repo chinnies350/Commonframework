@@ -1,0 +1,55 @@
+
+.companyCard{
+    margin: 1vw 1vh;
+    padding:1vw 3vh;
+    background-color: #000;
+    color: #fff; 
+    text-align: center; 
+    text-transform: uppercase;
+    display: flex;
+    border: #000 solid 1px;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-weight: 400;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family:arial,sans-serif;
+}
+
+.companyCard:hover{
+    margin: 1vw 1vh;
+    padding:1vw 3vh;
+    border: #000 solid 1px;
+    background-color: #ffffff;
+    color: #000000; 
+    text-align: center; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 6px;
+    cursor: pointer; 
+    transition-duration:0.30s;  
+}
+
+
+.companyCard:focus{
+    margin: 1vw 1vh;
+    padding:1vw 3vh;
+    border: #000 solid 1px;
+    background-color: #ffffff;
+    color: #000000; 
+    text-align: center; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 6px;
+    cursor: pointer;
+    transition-duration:0.30s;  
+}
+
+.BranchCardList {
+    & .ant-checkbox-group {
+        display: flex;
+        flex-direction: column;
+    }
+}

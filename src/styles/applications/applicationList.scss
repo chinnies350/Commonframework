@@ -1,0 +1,76 @@
+.applicationList {
+    // background-color: black;
+    padding: 2rem min(2rem, 10dvw);
+    height: calc(100dvh - 4rem);
+    overflow-y: auto;
+}
+
+.subCatApplicationCardParent {
+    background-color: white;
+    border-radius: 10px;
+    margin: 2rem 0px;
+    padding: 0px min(2rem, 5dvw);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    // overflow-y: auto;
+}
+
+// .filterCard {
+//     background-color: rgb(255,255,255, 0.6);
+// }
+
+.subCatApplicationCardHeading {
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+
+    & p {
+        font-weight: 500;
+        font-size: min(28px ,7dvw);
+    }
+}
+
+.subCatApplicationCards {
+    // margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 1rem;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.eachApplicationCard {
+    background: white;
+    border: 0.5px solid #C9C9C9;
+    border-radius: 10px;
+    // background-color: red;
+    width: min(200px, 50dvw);
+    padding: 1rem;
+    font-size: min(22px, 7dvw);
+
+    &:hover {
+        border: 1px solid black;
+    }
+
+    & .eachApplicationCardAppDetails{
+        margin: 0.5rem 0px;
+    }
+
+    & .appDescriptionCard {
+        font-size: min(11px , 4dvw);
+    }
+
+    & .appDescriptionCardSubc {
+        font-size: min(12px, 5dvw);
+        // padding: 0.5rem 0px;
+        color: #004BA9;
+    }
+
+    & .appDescriptionCardSubc:hover {
+        filter: brightness(50%);
+    }
+}
+
+.eachApplicationLogo{
+    width:48px;
+    height:44px;
+}

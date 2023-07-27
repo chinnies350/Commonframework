@@ -1,0 +1,85 @@
+.moduleAccessDiv {
+    padding: 30px 2px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem; 
+    --TABLE_HEADER_BACKGROUND_COLOR: #fafafa;
+    --TABLE_HEADER_TEXT_COLOR: #000000; 
+    --TABLE_HEADER-FONT-SIZE: 14px;
+    --TABLE_HEADER-FONT-WEIGHT: 500;
+    --TABLE_HEADER_PADDING: 10PX;
+    --TABLE_BODY_PADDING: 10px;
+    --TABLE_BODY_BORDER-RADIUS: 10px;
+    --TABLE_BODY_BACKGROUND: #fafafa;
+    font-family: var(--PARA_FONT_FAMILY);  
+}
+
+.hrClass {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #ccc7c7;
+    font-family: var(--PARA_FONT_FAMILY); 
+}
+
+.dropDownSelectors{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap:2rem;
+}
+.dropDownSelectParentDiv {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    font-family: var(--PARA_FONT_FAMILY); 
+    
+}
+.dropDownSelectChildDiv{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap:2rem;
+}
+
+.moduleAccessSelectDrp {
+    border: 1px solid var(--TABLE-BORDER-COLOR);
+    // width: max(300px, 22vw);
+}
+
+
+.selectDrpHeading {
+    font-weight:550
+}
+
+.moduleDropParent {
+    background-color: var(--TABLE_BODY_BACKGROUND);
+    // width: 100%;
+    height: inherit;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    // width: max(100px, 4vw);
+}
+.userAccessDivP {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.formDivModule{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 3rem;
+    // padding-top: 1.2rem;
+    row-gap: 1.5rem; 
+    padding: 1vw 0vh;
+}
+
+.formDivModuleUser{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 3rem;
+    // padding-top: 1.2rem;
+    row-gap: 1.5rem;
+    margin-top: 5px;
+}

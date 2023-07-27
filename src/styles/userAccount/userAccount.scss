@@ -1,0 +1,214 @@
+.userAccount {
+    margin: min(2.5rem, 5dvw);
+    background-color: white;
+    display: flex;
+    flex-grow: 1;
+    border-radius: var(--BORDER_RADIUS);
+}
+.optionSection {
+    width: 25%;
+    border-radius: var(--BORDER_RADIUS);
+    border-right: solid 0.5px #C9C9C9;
+    // background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0px 10px;
+    & .userAccountHeading {
+        padding: 3rem 0px;
+        font-weight: 600;
+        font-size: 1.4rem;
+        font-family: var(--HEADING_FONT_FAMILY);
+    }
+
+    & .userAccountTab {
+        font-size: 0.9rem;
+        font-weight: 500;
+        padding: 0.5rem 0px;
+        width: 100%;
+        font-family: var(--HEADING_FONT_FAMILY);
+    }
+
+    & .userAccountTab:hover {
+        background-color: #F4EAF2;
+        color: #901D77;
+    }
+}
+
+
+.userAccountCont {
+    padding: max(2px, 0.7dvw) ;
+    width: 100%;
+    overflow-y: auto;
+}
+
+.userAccountSec {
+    padding: max(2px, 0.7dvw) ;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    
+}
+
+.securityContentPage {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    column-gap: 2rem;
+    row-gap: 2rem;
+
+    & .userPage {
+        padding: 0;
+
+    }
+
+    & .pageOverAllUser {
+        flex-grow: 1;
+        height: fit-content;
+        border-radius: var(--CARD_BORDER_RADIUS);
+        border: solid 0.5px #A9ACAA;
+        row-gap: 2rem;
+    }
+
+    // & .formedit{
+    //     display: flex;
+    //     // width: 100%;
+    //     flex-grow: 1;
+    // }
+
+    & .formDiv {
+        justify-content: center;
+        align-items: center;
+    }
+
+    & .formDivAnt{
+        flex-direction: column;
+    }
+
+    & .inputForm{
+        flex-direction: column;
+    }
+
+}
+.myProfileHeading {
+    font-weight: 600;
+    font-size:1.4rem;
+    padding-bottom: 2rem;
+    font-family: var(--HEADING_FONT_FAMILY);
+}
+
+
+.showData {
+    border: solid 1px #A9ACAA;
+    border-radius: var(--CARD_BORDER_RADIUS);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    margin: 1rem 0px;
+    column-gap: min(0rem, 4dvw);
+    row-gap: 2rem;
+    justify-content: space-around;
+
+    & .heading{
+        color:  #818181;
+    }
+
+    & .userAccountField{
+        text-align: center;
+        margin: auto 0px;
+    }
+
+    & .userAccountButton{ 
+        margin: auto 0px;   
+
+        & button {
+            background-color: white;
+            border: solid 1px #A9ACAA;
+            padding: .5rem;
+        }
+    }
+    
+}
+
+.editData {
+    border: solid 1px #A9ACAA;
+    border-radius: var(--CARD_BORDER_RADIUS);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    margin: 1rem 0px;
+    // column-gap: 1rem;
+    row-gap: 2rem;
+}
+
+.backClassUser{
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+    color: #004BA9;
+}
+
+.profileImage{
+    width: max(200px, 20%);;
+    border-radius: 50%;
+    // border: solid 1px black
+}
+
+.mobileViewClose {
+    display: none;
+    text-align: right;
+    padding-right: 1rem;
+    padding-top: 1rem;
+}
+
+.menuIcon {
+    display: none;
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 450px) {
+    .optionSection {
+        width: 100%;
+        font-size: 30px;
+
+        & .userAccountHeading {
+            font-size: 8dvw;
+            font-weight: 700;
+        } 
+        
+        & .userAccountTab { 
+            font-size: 6dvw;
+        }
+    }
+    .userSectionClose {
+        display: none;
+    }
+
+    .userSectionOpen {
+        display: block;
+    }
+
+    .mobileViewClose {
+        display: block;
+    }
+    
+    .showData  {
+        justify-content: center;
+    }
+
+    .menuIcon{
+        display: block;
+    }
+}
+
+
+.userAccountTabDiv{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding-left: 1.5rem;
+}

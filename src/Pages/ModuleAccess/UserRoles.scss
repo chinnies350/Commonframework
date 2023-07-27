@@ -1,0 +1,19 @@
+
+.checkBoxClass {
+    // max-width: 300px;
+    border: 1px solid var(--TABLE-BORDER-COLOR);
+    display: flex;
+    gap: 1rem;
+    padding: VAR(--TABLE_BODY_PADDING);
+    flex-wrap: wrap;
+    background-color: var(--TABLE_BODY_BACKGROUND);
+}
+
+
+.roleButton {
+    margin: 5px;
+}
+
+.radio_button{
+    width:200px !important
+}

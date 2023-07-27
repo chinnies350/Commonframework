@@ -1,0 +1,16 @@
+.storeSelectDiv {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--PARA_FONT_FAMILY);  
+}
+
+
+
+
+.moduleDropParent select {
+    // width: 95%;
+    padding: 5px 5px;
+    margin: 33px 7px;
+    // height: inherit;
+    font-family: var(--PARA_FONT_FAMILY);  
+}

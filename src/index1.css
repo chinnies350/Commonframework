@@ -1,0 +1,71 @@
+:root {
+
+  /* component variables */
+
+  --INPUT_FIELD_WIDTH: min(60vw, 250px);
+
+  /* application common variables */
+  --HEADING_COLOR: #000000;
+  --HEADING_FONT_FAMILY: 'Gilroy';
+
+  --PARA_FONT_FAMILY: 'Poppins';
+  --PARA_COLOR: #3F3F3F;
+
+  --PRIMARY_BUTTON_BG_COLOR: #8F1E78;
+  --PRIMARY_BUTTON_COLOR: #FFFFFF;
+  --PRIMARY_BUTTON_BORDER_RADIUS: 6px;
+
+  --SECONDRY_BUTTON_BG_COLOR: white;
+  --SECONDRY_BUTTON_COLOR: #000000;
+  --SECONDRY_BUTTON_BORDER_RADIUS: 25.6853px;
+
+  --THIRD_BUTTON_BG_COLOR: #060606;
+  --THIRD_BUTTON_COLOR: #EFEFEF;
+  --THIRD_BUTTON_BORDER_RADIUS: 6.53329px;
+
+  --BOX_SHADOW_LEVEL1: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  --BOX_SHADOW_LEVEL2: 0px 4px 25px rgba(0, 0, 0, 0.2);
+  --BOX_SHADOW_LEVEL3: 0px 5.25331px 26.3077px rgba(0, 0, 0, 0.08);
+
+  --CARD_BG_COLOR: rgba(255, 255, 255, 0.6);
+  --CARD_COLOR: #000000;
+  --CARD_FONT_FAMILY: 'Gilroy-Medium';
+
+  --ANCHOR_FONT_FAMILY: 'Manrope';
+  --ANCHOR_COLOR: #314259;
+
+  --BUTTON_FONT_FAMILY: 'Gilroy-Medium';
+
+  /* Page common funtion */
+  --PAGE_BODY_BACKGROUND_COLOR: #E8ECF1;
+
+  overflow-x: hidden;
+
+  --TABLE_PAGE_PADDING: 1rem;
+
+}
+
+* {
+padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+}
+
+p {
+font-family: VAR(--PARA_FONT_FAMILY);
+}
+
+button {
+font-family: var(--BUTTON_FONT_FAMILY);
+}
+
+
+header {
+font-family: VAR(--HEADING_FONT_FAMILY);
+}
+
+a {
+font-family: var(--ANCHOR_FONT_FAMILY);
+}
+
+

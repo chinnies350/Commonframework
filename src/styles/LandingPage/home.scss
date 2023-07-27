@@ -1,0 +1,258 @@
+.homePageDiv {
+    // margin: 0px max(10px, 4vw);
+    margin-left: max(10px, 3.5vw);
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    column-gap: 1rem;
+    padding: 1.5rem 0px;
+    row-gap: 2rem;
+    overflow: auto;
+    // grid-template-columns: 2fr 1fr;
+    // background-color: black;
+}
+
+.AppsCardParentDiv {
+    background-color: white;
+    flex-grow: 2.5;
+    max-width: min(80vw, 670px);
+    min-height: 500px;
+    border-radius: var(--CARD_BORDER_RADIUS);
+    
+}
+
+.homePageRightSideCards {
+    // background-color: white;
+    flex-grow: 1;
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    // align-items: center;
+    overflow-x: auto;
+    flex-direction: column;
+    row-gap: 5rem;
+    // flex-direction: ;
+}
+
+.homePageRightSideCard {
+    background-color: white;
+    width: min(80vw, 450px);
+    height: 250px;
+    border-radius: var(--CARD_BORDER_RADIUS);
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.homeAppHeadder {
+    display: flex;
+    margin: 2rem 3rem;
+    column-gap: 1rem;
+}
+
+.homePageAppIcon {
+    display: grid;
+    place-content: center;
+    padding: auto;
+}
+
+.homeAppHeadder p {
+    font-size: 12px;
+    line-height: 14.06px;
+}
+
+.appList {
+    // margin: min();
+    display: flex;
+    flex-wrap: wrap;
+}
+.appListComponent {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 3rem;
+    row-gap: 1rem;
+    margin: 1rem max(10px, 3vw);
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.appCard {
+    border: 1px solid #C9C9C9;
+    border-radius: 4.55px;
+    width: 137.93px;
+    height: 126.79px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 2vh;
+    font-weight: 500;
+    line-height: 13.71px;
+
+    & p {
+        padding: 1rem 0px;
+    }
+
+    &:hover {
+        background-color: #F4EAF2;
+        border-color: #F4EAF2;
+        color: #8F1E78;
+    }
+}
+
+
+.appCardexpire {
+    border: 1px solid #df1919;
+    border-radius: 4.55px;
+    width: 137.93px;
+    height: 126.79px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 2vh;
+    font-weight: 500;
+    line-height: 13.71px;
+
+    & p {
+        padding: 1rem 0px;
+    }
+
+    &:hover {
+        background-color: #F4EAF2;
+        border-color: #F4EAF2;
+        color: #8F1E78;
+    }
+}
+
+.appCardexpired {
+    border: 1px solid #ff8400;
+    border-radius: 4.55px;
+    width: 137.93px;
+    height: 126.79px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 2vh;
+    font-weight: 500;
+    line-height: 13.71px;
+
+    & p {
+        padding: 1rem 0px;
+    }
+
+    &:hover {
+        background-color: #F4EAF2;
+        border-color: #F4EAF2;
+        color: #8F1E78;
+    }
+}
+
+.divExpire{
+    padding: 0.4rem;
+    padding-bottom: 0.4rem;
+    border-radius: 0.1rem;
+    color: #ff8400;
+    font-size: 0.7rem;
+    font-family: VAR(--PARA_FONT_FAMILY);
+    font-weight: 600;
+}
+
+.divExpired{
+    padding: 0.4rem;
+    padding-bottom: 0.4rem;
+    border-radius: 0.1rem;
+    color: red;
+    font-size: 0.7rem;
+    font-family: VAR(--PARA_FONT_FAMILY);
+    font-weight: 600;
+}
+
+.homePaymentParent {
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 100%;
+}
+.paymentHistoryTable {
+    overflow: auto;
+    height: 100%;
+}
+
+.paymentHistoryTable .ant-table-thead  th {
+    font-size: 0.6rem !important;
+} 
+
+.tableText {
+    color: black;
+    font-size: 0.7rem;
+}
+
+// .tableText:hover {
+//     // color: black;
+// }
+
+.Pending {
+    color: orange;
+    // filter: brightness(70%);
+}
+
+.tableText:has(.Pending):hover {
+    color: orange;
+    // filter: brightness(70%);
+}
+
+.Success {
+    color: green;
+}
+
+.tableText:has(.Success):hover {
+    color: green;
+}
+
+.Cancelled {
+    color: red;
+}
+
+.tableText:has(.Cancelled):hover {
+    color: red;
+}
+
+
+.homeNotification {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 2rem;
+    font-family: var(--PARA_FONT_FAMILY);
+    font-size: 14px !important;
+    padding: 2rem;
+    padding-top: 1rem;
+}
+
+
+
+
+
+::-webkit-scrollbar {
+    width: 3px;
+    height: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #c7c6c6;
+    border-radius: 16px;
+    box-shadow: inset 2px 2px 2px hsla(0, 0%, 100%, 0.25), inset -2px -2px 2px rgba(0,0,0,.25);
+}
+::-webkit-scrollbar-track {
+    border-radius: 25px;
+    background: linear-gradient(90deg, #ffffff, #c9c9c9 1px, #ffffff 0, #ffffff);
+}
+
+
+
+
+
+
+
+

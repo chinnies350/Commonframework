@@ -1,0 +1,243 @@
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Exo:100);
+/* Background data (Original source: https://subtlepatterns.com/grid-me/) */
+/* Animations */
+@-webkit-keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 50px 50px;
+  }
+}
+@-moz-keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 50px 50px;
+  }
+}
+@-o-keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 50px 50px;
+  }
+}
+@keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 50px 50px;
+  }
+}
+@-webkit-keyframes bg-scrolling {
+  0% {
+    background-position: 50px 50px;
+  }
+}
+@-moz-keyframes bg-scrolling {
+  0% {
+    background-position: 50px 50px;
+  }
+}
+@-o-keyframes bg-scrolling {
+  0% {
+    background-position: 50px 50px;
+  }
+}
+@keyframes bg-scrolling {
+  0% {
+    background-position: 50px 50px;
+  }
+}
+/* Main styles */
+.signinbody { 
+  color: #999;
+//   font: 400 16px/1.5 exo, ubuntu, "segoe ui", helvetica, arial, sans-serif;
+//   text-align: center;
+  /* img size is 50x50 */
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAIAAACRXR/mAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAABnSURBVHja7M5RDYAwDEXRDgmvEocnlrQS2SwUFST9uEfBGWs9c97nbGtDcquqiKhOImLs/UpuzVzWEi1atGjRokWLFi1atGjRokWLFi1atGjRokWLFi1af7Ukz8xWp8z8AAAA//8DAJ4LoEAAlL1nAAAAAElFTkSuQmCC") repeat 0 0;
+  -webkit-animation: bg-scrolling-reverse 0.92s infinite;
+  /* Safari 4+ */
+  -moz-animation: bg-scrolling-reverse 0.92s infinite;
+  /* Fx 5+ */
+  -o-animation: bg-scrolling-reverse 0.92s infinite;
+  /* Opera 12+ */
+  animation: bg-scrolling-reverse 0.92s infinite;
+  /* IE 10+ */
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+// body::before {
+// //   content: "INFINITY";
+//   font-size: 8rem;
+//   font-weight: 100;
+//   font-style: normal;
+// }
+
+
+.Sing_bg{
+    background-color: aliceblue;
+    width: 100vw; 
+    height: 100vh; 
+    position: fixed;
+}
+.Sing_bg {  
+  overflow: scroll;
+  }
+
+.Signin_cont{
+    
+    margin: 4vw 9vh;
+    padding: 5vw 17vh;
+    width: 90%; 
+    height: auto; 
+    border-radius: 8px;
+    border: 1px solid #dadada;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    overflow: hidden;
+}
+.logintxt1{
+    font-family: var(--HEADING_FONT_FAMILY);
+    font-style: normal;
+    font-weight: 600;
+    font-size:5vh;
+    line-height: 35px;    
+    color: var(--HEADING_COLOR);  
+    position: relative;
+    top:0.5rem;  
+}
+
+  
+.logintxt2{
+    font-family: var(--PARA_FONT_FAMILY);  
+    color: var(--PARA_COLOR);   
+    font-size: 14px;
+    font-weight: 400;
+    position: relative;
+    top: 0.4rem;  
+}
+
+.logintxt3{
+    font-family: var(--PARA_FONT_FAMILY);   
+    font-size: 11px;
+    font-weight: 400;
+    position: relative;
+    top: 0.5rem;   
+    color: #000;
+}
+ 
+.loginbg{
+    position: relative;
+    margin: 1vw 2vh; 
+    bottom:0rem;  
+}
+ 
+.Globegif{
+    width:15vh;
+    position: relative;
+    top:2rem;
+    left: 16rem; 
+    opacity: 80%;
+}
+ 
+.txt5{
+    position: relative;
+    top: 4rem; 
+    width: 100vw;
+    font-size: 12px;
+    cursor: pointer;
+    color: rgb(47, 164, 231);
+}
+
+.txt6{
+    position: relative;
+    top: 3rem;  
+}
+
+.inputfieldstyle{
+     
+    top: 2rem; 
+    position: relative;
+    transition-duration:0.60s; 
+}
+
+
+.imgcrsl{
+     border: solid 0.02px #f3f3f3;
+     margin:0vw 0vh;
+     padding: 0vw 0vh;
+     width: 40vw;
+}
+ 
+
+@media  (min-width: 500px) and (max-width: 769px)  { 
+
+    .Signin_cont{
+        margin:10vw 5vh;
+        padding:15vw 3vh;
+       width: 70vh;
+       height: 80vh;
+    }
+
+}
+
+
+
+
+@media all and (max-width: 770px) {
+    .imgcrsl{
+        display: none;
+    }
+
+    .logintxt1{
+        width: 600px;
+    }
+    .logintxt2{
+        width: 600px;
+    }
+    .txt5{ 
+        font-size: 12px; 
+        width: 100vw !important;
+    }
+}
+
+.timersecdiv{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.timersecsubdiv{
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  font-family:  var(--PARA_FONT_FAMILY);  
+  font-style: normal; 
+  font-size: 18px;
+}
+
+.timersec{ 
+    // left: 151px; 
+    // top: 290px; 
+    font-family:  var(--PARA_FONT_FAMILY);  
+    font-style: normal; 
+    font-size: 18px;
+    line-height: 35px;
+  
+  }
+  
+  
+  .otpContainer {   
+    margin-bottom: 25px;
+    align-content: center;
+  }
+  
+  .otpInput {
+    width:1.85rem !important;
+    height: 2.5rem;
+    margin: 0 0.14rem;
+    font-size: 1rem;
+    text-align: center;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+  }
+  
+  

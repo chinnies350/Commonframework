@@ -1,0 +1,193 @@
+.nav_drp_Itms{ 
+    
+    margin: 1vw 3vh;
+    height: 50vh;
+    width: 95vw; 
+    display: flex;
+    flex-wrap: wrap;  
+    flex-direction: column;
+}
+
+ .ant-popover .ant-popover-inner {
+    background-color: #fff; 
+    background-clip: padding-box;
+    border-radius: 8px;
+    box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.08), 0 3px 6px -4px rgba(0, 0, 0, 0.12), 0 9px 28px 8px rgba(0, 0, 0, 0.05);
+    padding: 12px; 
+    border: solid 0.10px #a5a5a5; 
+}
+ 
+
+.nav_drp_Left_list{
+  
+    font-size:16px;
+    margin:2vw 5vh;
+    padding: 2vw 2vh;
+    width: 25vw;
+    height: 20vw;
+    display: flex; 
+    list-style: none !important;
+    justify-content: center;
+    background-color: rgb(29, 110, 180); 
+}
+ 
+.Left_Items{ 
+    color: rgb(0, 0, 0) !important;    
+    height:300px;
+    width:300px;
+    padding:2vw 1.5vh;     
+    margin:1vw 0vh;    
+    background-color: #F4EAF2;   
+    border-radius:12px;
+    font-family: var(--HEADING_FONT_FAMILY) !important;
+}
+
+.Left_List{
+    width: 20vw;
+    height:40px;   
+    padding: 1vw 3vh;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between !important;
+    font-family: var(--HEADING_FONT_FAMILY) !important;
+    align-items: center;
+    color: rgb(0, 0, 0) !important;    
+    background: none; 
+    font-weight:500;
+    font-size: 2.5vh !important;  
+    border: none;
+    transition-duration:0.60s;  
+
+}
+
+ .app_des{
+    font-size: 13px;
+    color: #515151be;
+ }
+
+.Left_List:hover{
+    width: 20vw;
+    height:40px;   
+    padding: 0vw 3vh;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(0, 0, 0) !important;   
+    background-color: #ffffff;  
+    cursor: pointer;  
+    font-size: 2.6vh !important;  
+    transition-duration:0.20s;  
+    transition-duration:0.60s;  
+
+}
+
+.Left_List:focus{
+    background-color: #ffffff; 
+}
+ 
+.Left_List:focus p{
+    display:block;
+}
+
+.Left_List p{
+    display:none;
+}
+// .edit_hover_class a{
+//     display:none;
+//     }
+//     .edit_hover_class:hover a {
+//       display:block;
+//     }
+
+
+
+ 
+
+.Right_Items{
+    width: 80vw;
+    height: 50vh; 
+    color: rgb(0, 0, 0);
+    display: flex; 
+    flex-wrap: wrap;  
+    flex-direction: row;   
+    align-content: center;
+    margin: 0vw 0vh;
+    padding: 1vw 1vh; 
+    align-items: center;   
+    background-color: #ffffff;
+}
+
+
+.Nav_right_items{    
+    padding:0vw 2vh;
+    margin:1vw 3vh;
+    width: 300px; 
+    height: 80px;
+    background-color:#fff; 
+    align-items: center;
+    border: #f3f3f3 solid 0.1px;
+    border-radius: 8px;
+    display: flex; 
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    transition-duration:0.60s;  
+    font-size: 16px !important;  
+}
+
+.Nav_right_items:hover{   
+
+    padding:0vw 2vh;
+    margin:1vw 3vh;
+    width: 303px; 
+    height: 83px;
+    background-color:#fff; 
+    border: #515151 solid 0.13px;
+    transition-duration:0.60s; 
+    border-radius: 8px;
+    display: flex;
+    cursor: pointer;    
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    justify-content: center;
+}
+
+
+.Right_Items_text{
+  
+}
+
+@media  (min-width: 500px) and (max-width: 1279px)  {  
+ 
+    .ant-popover .ant-popover-inner {
+        height:70vh !important;     
+        overflow:hidden !important;
+        flex-wrap: wrap;
+
+    }
+    .Right_Items{  
+         margin:-8vw 3vh;
+         padding:2vw 1vh;   
+         height:80vh !important;
+         width: 92vw;    
+         overflow: scroll ; 
+
+        //  width: 90vw;
+         height: 100vh;
+    }
+
+    // .Nav_right_items{ 
+    //     padding:2vw 2vh;
+    //     margin:1vw 3vh; 
+    //     width:30vw;  
+    //     height: auto !important;   
+    // }
+
+    // .Nav_right_items:hover{
+    //     padding:2vw 2vh;
+    //     margin:1vw 3vh; 
+    //     width: 30vw;  
+    //     height: auto !important;   
+    //     border: #515151 solid 1px;
+    // }
+}

@@ -1,0 +1,84 @@
+.userAccessDiv {
+    display: flex;
+    flex-grow: 1;
+    font-family: var(--PARA_FONT_FAMILY);  
+    // width: 100%;
+    
+}
+
+.userAccess {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    font-family: var(--PARA_FONT_FAMILY);  
+}
+
+.userAccessBody {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    background-color: var(--TABLE_BODY_BACKGROUND);
+    padding: 10px;
+    font-family: var(--PARA_FONT_FAMILY);  
+    text-align: center;
+    font-weight: 400;
+}
+
+.BranchCardListDiv{
+    display:flex;
+    flex-wrap: wrap;
+    gap:1rem;
+}
+
+.closeMarkDivP {
+    display: flex;
+    // width: 100vw;
+
+}
+.closeMark {
+    flex-grow: 1;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    // position: absolute;
+    // right: 0px;
+}
+.submitClass {
+    display: flex;
+    justify-content: flex-end;
+    font-family: var(--PARA_FONT_FAMILY);  
+}
+
+.accessBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-family: var(--PARA_FONT_FAMILY);  
+    
+}
+
+.submitButton {
+   margin-top: 10px;
+    
+}
+
+.tableClass table {
+    width: 100%;
+    font-family: var(--PARA_FONT_FAMILY);  
+}
+
+.tableClass table th {
+    border-bottom: 1px solid black;
+    line-height: 1rem;
+    padding: 10px;
+    font-family: var(--PARA_FONT_FAMILY);  
+}
+
+.tableClass table td {
+    border-bottom: 1px solid lightgrey;
+    line-height: 1rem;
+    padding: 10px;
+    font-family: var(--PARA_FONT_FAMILY);  
+}
+

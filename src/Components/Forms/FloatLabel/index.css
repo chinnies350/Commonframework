@@ -1,0 +1,29 @@
+.float-label {
+    position: relative;
+    margin-bottom: 12px;
+  }
+ 
+
+  .label {
+    font-size: 14px !important;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 12px; 
+    font-family: Arial, Helvetica, sans-serif;
+    top: 14px;
+    transition: 0.2s ease all;
+  }
+  
+  .label-float { 
+    font-size: 12px !important; 
+    top:2px;
+    left: 12px;  
+    font-style: normal; 
+    color: #007eb5; 
+    /* background-color: #fff;  */
+    z-index: 23;
+  }
+  
+    
+ 

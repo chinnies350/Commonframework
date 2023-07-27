@@ -1,0 +1,109 @@
+.Userform{      
+    display: flex;  
+    justify-content: center; 
+    position: relative;
+    width:1000px;
+    right: 41rem;
+  
+} 
+
+.grid-wrapper{
+    --auto-grid-min-size: 15rem;
+    display: grid;  
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
+    margin: 2rem;
+    padding: 10px 80px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.grid-wrapper li{ 
+    color: #ffffff;
+    font-size: 24px;
+    list-style-type: none;
+    padding: 0.2rem 36rem; 
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.main-container{
+    // background-color: rgb(153, 225, 229);
+    // margin: 10rem 12rem;
+    max-width: 1000px;   
+    
+}
+ 
+.submit_btn{
+    
+    position: relative;
+    left: 50rem;
+    top:2rem;
+}
+
+
+.drp_btn{
+    position: relative;  
+    right: 20rem;
+    top: 0.40rem;
+    width: max-content;
+}
+.formName{
+    position: relative;
+    left:-22rem;
+    top: 2rem; 
+    font-size:30px;
+    font-weight: 600;
+    color: #000000;
+    font-family: var(--HEADING_FONT_FAMILY);
+    
+}
+.formdes{
+    position: relative; 
+    top: 0rem; 
+    left:13rem;
+    font-size: 14px; 
+    font-style:normal;
+    color: var(--PARA_COLOR);
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 400;
+    
+}
+
+.formcont{
+    position: relative;  
+    top: 2rem; 
+     left:-8rem;
+}
+.formbg{
+    width: 1100px;
+    height: 600px;
+    left: 13rem;
+    top: 4rem;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255); 
+    justify-content: center;
+    position: absolute; 
+}
+
+.crumb{ 
+    position: absolute;   
+    right: 10rem;
+    top: -6rem;
+    width: max-content;
+}
+.upload_btn{
+    position: relative;
+    left: 16rem;
+    top: 6rem;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: inherit; 
+    z-index: 2;
+}
+
+.extradetails{
+    position: relative;
+    left: 16rem; 
+    width: max-content;
+    top: -7rem;  
+}

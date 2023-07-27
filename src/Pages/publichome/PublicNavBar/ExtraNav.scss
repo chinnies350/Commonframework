@@ -1,0 +1,41 @@
+.extranav {
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+    align-items: center;
+    top:0rem;
+    left:0rem;
+    position: fixed;
+    margin: 0vw 37vw;
+    height:2rem;
+    // background-color:#e75353;
+    box-shadow: 0px 4px 150px rgba(0, 0, 0, 0.1);
+    z-index: 26;
+    
+    
+}
+
+.extranavItems{
+    display:flex; 
+    align-items: center;  
+    justify-content: center;
+    gap:1rem;
+    flex-wrap: wrap;
+    padding:0px; 
+    cursor: pointer;
+    font-size:15.5px; 
+    font-family: 'Gilroy';
+    font-weight: 500; 
+    // text-transform: uppercase;
+    letter-spacing:0.3px; 
+    font-style: none; 
+    color:#000000; 
+}
+
+
+ 
+.extranavdropdowns{
+    display: flex;  
+    justify-content: center; 
+    flex-wrap: wrap;
+}
